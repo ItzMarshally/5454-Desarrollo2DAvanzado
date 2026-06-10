@@ -9,6 +9,8 @@ public class PlayerBehaviour : MonoBehaviour
     private Animator playerAnimator;
 
     public Transform firePoint;
+
+    float life = 100;
     void Start()
     {
        rb = GetComponent<Rigidbody2D>();
